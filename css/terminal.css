@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #2b3d50;
 }
 
 .bar {
@@ -49,7 +42,7 @@ body {
 }
 
 .yellow:hover {
-    background-color: yellow;
+    background-color: rgba(43, 61, 80, .8);
 }
 
 .green {
@@ -59,13 +52,13 @@ body {
 }
 
 .green:hover {
-    background-color: green;
+    background-color: rgba(43, 61, 80, .8);
 }
 
 .screen {
     background-color: #33485e;
     width: 750px;
-    height: 450px;
+    height: auto;
     margin: 0 auto;
     padding: 1px;
     border-bottom-left-radius: 5px;
@@ -78,4 +71,7 @@ body {
     font-size: 15px;
     text-align: left;
     position: static;
+    margin: 5px;
 }
+
+
